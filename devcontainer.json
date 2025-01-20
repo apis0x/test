@@ -1,0 +1,16 @@
+{
+    "name": "Network 3 Node",
+    "image": "ubuntu:latest",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-vscode.cpptools",
+          "dbaeumer.vscode-eslint"
+        ]
+      }
+    },
+    "postCreateCommand": "sudo apt update && sudo apt upgrade -y && sudo apt install -y screen net-tools wget && wget https://network3.io/ubuntu-node-v2.1.0.tar && tar -xvf ubuntu-node-v2.1.0.tar && rm -rf ubuntu-node-v2.1.0.tar && cd ubuntu-node && screen -S network3",
+    "forwardPorts": [8080],
+    "remoteUser": "vscode"
+  }
+  
