@@ -1,0 +1,21 @@
+System architecture is x86_64 (64-bit)
+local netiface is eth0
+Applying configurations..
+checking env..
+Reading package lists...
+Building dependency tree...
+Reading state information...
+net-tools is already the newest version (1.60+git20180626.aebd88e-1ubuntu1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+starting node...
+process id = 53033
+main is up.
+interface is up.
+after adding if.
+after setting wg key.
+after setting config.
+after adding addr.
+after mtu up.
+routes added.
+node is ready.
+you can access the dashboard by opening https://account.network3.ai/main?o=xx.xx.xx.xx:8080 in chrome where xx.xx.xx.xx is the accessible ip of this machine
